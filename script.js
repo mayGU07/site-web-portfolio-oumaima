@@ -82,7 +82,7 @@ scene.add(directionalLight);
 let loadedModel = null;
 const loader = new GLTFLoader();
 
-loader.load('\C:\Users\User\Desktop\SITE\MedAli-main\models\scene.gltf'/mod, (gltf) => {
+loader.load('models\scene.gltf'/mod, (gltf) => {
     const model = gltf.scene;
     scene.add(model);
     loadedModel = model;
